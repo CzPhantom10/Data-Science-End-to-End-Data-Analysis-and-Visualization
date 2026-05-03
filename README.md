@@ -1,6 +1,7 @@
 # Smart Home Device Data Analysis
 
 ## Overview
+
 This project focuses on analyzing smart home IoT device data using Data Science techniques. Smart homes generate large amounts of sensor data from devices such as air conditioners, lights, fans, heaters, televisions, and refrigerators. Proper analysis of this data helps in understanding device behavior, identifying energy usage trends, and improving overall efficiency.
 
 The project demonstrates the complete data analysis pipeline including:
@@ -12,8 +13,13 @@ The project demonstrates the complete data analysis pipeline including:
 - Data Visualization using Seaborn
 - Insights and Conclusion
 
-## Problem Statement
-Smart homes consist of multiple IoT devices such as air conditioners, lights, fans, and appliances that continuously generate sensor data. These devices operate based on environmental conditions and user interactions, but:
+---
+
+# Problem Statement
+
+Smart homes consist of multiple IoT devices such as air conditioners, lights, fans, and appliances that continuously generate sensor data.
+
+These devices operate based on environmental conditions and user interactions, but:
 
 - Data collected is often inconsistent and unstructured
 - Energy usage patterns are not clearly understood
@@ -26,7 +32,10 @@ This creates challenges in:
 - Detecting patterns over time (peak usage hours)
 - Making data-driven decisions for optimization
 
-## Objective
+---
+
+# Objective
+
 The objective of this project is to analyze smart home device data using Data Science techniques in order to:
 
 - Clean and preprocess raw IoT data
@@ -34,11 +43,14 @@ The objective of this project is to analyze smart home device data using Data Sc
 - Identify energy usage patterns
 - Improve overall efficiency through data-driven analysis
 
-## Dataset Information
+---
+
+# Dataset Information
+
 The dataset contains smart home IoT device data with the following columns:
 
 | Column Name | Description |
-| --- | --- |
+|---|---|
 | timestamp | Date and time of device activity |
 | device_id | Unique identifier for each device |
 | device_type | Type of device |
@@ -48,15 +60,18 @@ The dataset contains smart home IoT device data with the following columns:
 | energy_usage | Energy consumed by the device |
 | status | Device state (ON/OFF) |
 
-## Tables Created
-### 1. Device Table
+---
+
+# Tables Created
+
+## 1. Device Table
 Contains unique device information.
 
 Columns:
 - device_id
 - device_type
 
-### 2. Sensor Table
+## 2. Sensor Table
 Contains environmental and motion sensor data.
 
 Columns:
@@ -66,7 +81,7 @@ Columns:
 - humidity
 - motion
 
-### 3. Energy Table
+## 3. Energy Table
 Contains device energy usage information.
 
 Columns:
@@ -74,7 +89,10 @@ Columns:
 - energy_usage
 - status
 
-## Data Cleaning Operations
+---
+
+# Data Cleaning Operations
+
 The following preprocessing operations were performed:
 
 - Handling missing values
@@ -83,7 +101,10 @@ The following preprocessing operations were performed:
 - Standardizing categorical values
 - Filtering and sorting data
 
-## Data Analysis Techniques
+---
+
+# Data Analysis Techniques
+
 The project includes:
 
 - Statistical summarization
@@ -91,30 +112,39 @@ The project includes:
 - Feature scaling using Standardization
 - Outlier detection using IQR method
 
-## Visualizations
+---
+
+# Visualizations
+
 Visualization techniques used in the project include:
 
-### Matplotlib
+## Matplotlib
 - Line Plot
 - Bar Plot
 - Scatter Plot
 - Histogram
 
-### Seaborn
+## Seaborn
 - Countplot
 - Boxplot
 - Violin Plot
 - Barplot
 - Heatmap
 
-## Key Insights
+---
+
+# Key Insights
+
 - Energy usage varies significantly across different device types
 - Some devices consume more energy compared to others
 - Temperature affects device energy consumption
 - Data cleaning improves analysis accuracy
 - Usage patterns help identify peak activity hours
 
-## Future Scope
+---
+
+# Future Scope
+
 Possible future improvements include:
 
 - Energy consumption prediction using Machine Learning
@@ -122,7 +152,10 @@ Possible future improvements include:
 - Smart automation based on usage patterns
 - Anomaly detection for unusual energy consumption
 
-## Technologies Used
+---
+
+# Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -130,5 +163,8 @@ Possible future improvements include:
 - Seaborn
 - Scikit-learn
 
-## Conclusion
+---
+
+# Conclusion
+
 This project demonstrates how Data Science techniques can be applied to smart home IoT data in order to improve understanding of device behavior and optimize energy usage. Through preprocessing, analysis, and visualization, meaningful insights were extracted from raw sensor data.
