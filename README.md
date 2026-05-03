@@ -168,3 +168,8 @@ Possible future improvements include:
 # Conclusion
 
 This project demonstrates how Data Science techniques can be applied to smart home IoT data in order to improve understanding of device behavior and optimize energy usage. Through preprocessing, analysis, and visualization, meaningful insights were extracted from raw sensor data.
+
+# Team Members
+- Prateek Sinha (RA2311003010318)
+- Hardik Agrawal (RA2311003010340)
+- Ishaan Sahu (RA2311003010352)
